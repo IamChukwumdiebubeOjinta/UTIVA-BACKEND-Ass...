@@ -6,7 +6,13 @@ const port = 3000
 
 // Using the GET request method
 app.get('/', (req, res) => {
-  res.send('Just Tested the GET Request!')
+  // res.send('Just Tested the GET Request!')
+  const users = [{
+    name: 'John',
+    age: 34
+  }]
+
+  res.status(200).json({status: 'OK', data: users})
 })
 
 // POST request 
