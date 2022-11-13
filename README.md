@@ -1,4 +1,6 @@
-# UTIVA-BACKEND-Ass...
+# User Auth
 <h1>Learning how to use Node.Js and Express.Js</h1>
 
-<p>Object.js is the obj assignment while Server.js is the http method assignment</p>
+<p>
+A Node.js and Express.js backend application that keeps track of all HTTP protocols with Authenication with aid of bcryptjs 
+</p>
